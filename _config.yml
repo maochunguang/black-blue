@@ -1,0 +1,162 @@
+# >>> Basic Setup | 基础设置 <<<
+
+# Header | 主菜单
+## About Page: `hexo new page about`
+## Tags Cloud Page: `hexo new page tags`
+menu:
+  主页: /
+  所有文章: /archives/
+  玩转开发工具: /categories/开发工具/
+  标签云: /tags/
+  关于我: /about/
+# 静心阅读: /tags
+
+# Link to your avatar | 填写头像地址
+avatar: /img/avatar.png
+
+# Small icon of Your site | 站点小图标地址
+favicon: /img/favicon.png
+
+# Social info. Bar | 社交信息展示
+## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"
+## Encrypt email 加密邮件地址 http://ctrlq.org/encode/
+## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
+## https://github.com/hexojs/hexo-generator-feed
+subnav:
+  github: "https://github.com/maochunguang"
+  weibo: "http://weibo.com/p/1005055620854238/home"
+  rss: /atom.xml
+
+  # Google: "#"
+# search_box: true
+
+# >>> Conments 评论系统 <<<
+
+disqus:
+  on: false
+  shortname: maochunguang
+  # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
+  # It is unnecessary to enable disqus here if
+  # you have set "disqus_shortname" in your site's "_config.yml"
+
+duoshuo:
+  on: false
+  domain: geeksblog
+  # 是否开启多说评论，http://duoshuo.com/create-site/
+  # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
+  # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
+
+youyan:
+  on: true
+  id: 2133530
+  # 是否开启友言评论，http://www.uyan.cc/index.php
+  # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
+  # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
+
+# >>> Style Customisation 样式自定义 <<<
+
+# Background | 背景
+## "background_sum": show images form /source/background/的图片数目
+## "on: true": 自动随机显示这5张图片
+## "on: false": 自定义显示图片设置background_image: 5
+background:
+  on: true
+  #on: false
+  background_sum: 3
+  background_image: 3
+
+highlight_style:
+  on: true
+  inline_code: 3  # Value: 0 - 9 可选
+  code_block: 2  # Value: 0 - 4
+  # Set inline_code to style highlight text
+  # Chose a highlight theme for code block
+  # 通过 inline_code 切换内置文本高亮样式
+  # 通过 code_block 切换内置代码高亮配色主题
+
+blockquote_style:
+  #on: true
+  blockquote: 5  # Value: 0 - 7 可选
+  # 自定义文章「引用部分」的样式
+
+# 左边栏宽度 px
+left_col_width: 300
+
+# 目录中标题不换行
+# Keep TOC title on the same line |
+toc_nowrap: false
+
+# 自定义"阅读全文"链接按钮的显示文字
+# Customize the text on excerpt link
+excerpt_link: 查看更多 #修改more>>的文字
+
+# 是否显示边栏中的搜索框（站内搜索）
+# Search Box in left column
+search_box: true
+
+# 是否开启主页及加载头像时的动画效果
+# Animation in Homepage and Loading avatar
+animate: true
+
+# >>> Small features | 小功能设置 <<<
+
+# 是否开启边栏多标签切换
+# Birdhouse button in left column
+tagcloud: true
+
+# Blogroll, Link exchange | 友情链接
+# friends: false
+friends:
+  csdn: http://blog.csdn.net/baidu_21483933
+  segmentfault: https://segmentfault.com/blog/maocg_web
+  简书: http://www.jianshu.com/users/eb37ef89c746/latest_articles
+#是否开启“关于我”。
+aboutme: 爱动漫,爱游戏,爱编程,爱运动,爱的太多了!
+#aboutme: false
+
+# 是否在新窗口打开链接
+open_in_new: false
+
+# Customize feed link 自定义订阅地址
+rss: /atom.xml
+
+
+# >>> Vendors | 第三方工具 & 服务 <<<
+
+# images viewer | 图片浏览器
+## http://www.fancyapps.com/fancybox/
+fancybox: true
+
+# Display Math(LaTeX, MathML...) | 数学公式支持
+## https://www.mathjax.org/
+mathjax: false
+
+# Socail Share | 是否开启分享
+# share: true
+baidushare: true
+#showshare: true
+
+# 百度、谷歌站长验证。填写 HTML 标签 content
+# Site Verification for Google and Baidu. HTML label content.
+# google_site: # pFW527fHrjfI0si2w4NQ0w3cTw12AvvuohAu1PUfqKA
+# baidu_site: #c167b9feb4f0b208b712c79629c188e4
+
+# Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
+google_analytics: UA-80304484-2
+baidu_analytics:
+
+
+
+# 不蒜子网站计数设置
+# http://ibruce.info/2015/04/04/busuanzi/
+visit_counter:
+  on: true
+  site_visit: 网站到访数
+  page_visit: 本页阅读量
+
+
+# A标签提示
+TipTitle: true
+
+# Loading
+# Loading: true

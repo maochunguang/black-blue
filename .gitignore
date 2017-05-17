@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+.Spotlight-V100
+.idea
+*.log
+node_modules

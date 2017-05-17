@@ -1,0 +1,19 @@
+<% if (theme.background.on){ %>
+    <script>
+        $(document).ready(function() {
+            var backgroundnum = <%= theme.background.background_sum %>;
+            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+        })
+    </script>
+<% } else { %>
+    <script>
+        $(document).ready(function() {
+            var backgroundnum = <%= theme.background.background_image %>;
+            var backgroundimg = "url(/background/bg-" + backgroundnum +".jpg)";
+            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+        })
+    </script>
+<% } %>
