@@ -4,10 +4,11 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  主页: /
+  # 主页: /archives/
   所有文章: /archives/
   玩转开发工具: /categories/开发工具/
-  标签云: /tags/
+  玩转数码: /categories/digital
+  认知提升: /categories/cognition
   关于我: /about/
 # 静心阅读: /tags
 
@@ -62,8 +63,8 @@ youyan:
 background:
   on: true
   #on: false
-  background_sum: 3
-  background_image: 3
+  background_sum: 4
+  background_image: 4
 
 highlight_style:
   on: true
@@ -143,7 +144,7 @@ baidushare: true
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
 google_analytics: UA-80304484-2
-baidu_analytics:
+baidu_analytics: 7c4f976a8b427a3d92ebe7ccd522b0b9
 
 
 
@@ -151,7 +152,7 @@ baidu_analytics:
 # http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
   on: true
-  site_visit: 网站到访数
+  site_visit: 极客到访数
   page_visit: 本页阅读量
 
 
