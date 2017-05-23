@@ -39,20 +39,13 @@ disqus:
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if
   # you have set "disqus_shortname" in your site's "_config.yml"
-
-duoshuo:
-  on: false
-  domain: geeksblog
-  # 是否开启多说评论，http://duoshuo.com/create-site/
-  # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
-  # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
-
-youyan:
+changyan:
   on: true
-  id: 2133530
-  # 是否开启友言评论，http://www.uyan.cc/index.php
+  appid: cysUyjKoQ
+  conf: prod_bc19196c7a2a5953894965521361b2db
+  # 是否开启畅言评论，
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
-  # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
+  # 畅言评论在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
 
 # >>> Style Customisation 样式自定义 <<<
 
@@ -62,7 +55,6 @@ youyan:
 ## "on: false": 自定义显示图片设置background_image: 5
 background:
   on: true
-  #on: false
   background_sum: 4
   background_image: 4
 
