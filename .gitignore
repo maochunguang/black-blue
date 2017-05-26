@@ -4,3 +4,4 @@
 .idea
 *.log
 node_modules
+_myconfig.yml

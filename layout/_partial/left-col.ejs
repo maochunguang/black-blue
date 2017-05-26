@@ -117,14 +117,14 @@
                     <nav class="header-menu">
                         <ul>
                         <% for (var i in theme.menu){ %>
-                            <li><a rel="external nofollow" href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+                            <li><a  href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
                         <%}%>
                         </ul>
                     </nav>
                     <nav class="header-nav">
                         <ul class="social">
                             <% for (var i in theme.subnav){ %>
-                                <a class="fl <%= i %>" rel="external nofollow" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><%= i %></a>
+                                <a class="fl <%= i %>"  target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><%= i %></a>
                             <%}%>
                         </ul>
                     </nav>
@@ -142,7 +142,7 @@
                 <section class="switch-part switch-part3">
                     <div id="js-friends">
                     <% for (var i in theme.friends){ %>
-                      <a target="_blank" rel="external nofollow" class="main-nav-link switch-friends-link" href="<%- url_for(theme.friends[i]) %>"><%= i %></a>
+                      <a target="_blank"  class="main-nav-link switch-friends-link" href="<%- url_for(theme.friends[i]) %>"><%= i %></a>
                     <% } %>
                     </div>
                 </section>
