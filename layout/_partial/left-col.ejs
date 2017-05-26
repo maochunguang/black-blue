@@ -9,11 +9,9 @@
             <img src="<%=theme.avatar%>" class="js-avatar" style="width: 100%;height: 100%;opacity: 1;">
             <%}%>
         </a>
-
         <hgroup>
           <h1 class="header-author"><a href="/"><%=theme.author%></a></h1>
         </hgroup>
-
         <% if (theme.subtitle){ %>
         <p class="header-subtitle"><%=theme.subtitle%></p>
         <%}%>
@@ -93,7 +91,6 @@
                         </div>
                         <%}%>
                     </div>
-
                 </div>
                 <div class="tips-box hide">
                     <div class="tips-arrow"></div>
@@ -110,7 +107,6 @@
                 </div>
             </div>
         <%}%>
-
         <div id="switch-area" class="switch-area">
             <div class="switch-wrap">
                 <section class="switch-part switch-part1">
@@ -129,7 +125,6 @@
                         </ul>
                     </nav>
                 </section>
-
                 <%if(theme.tagcloud){%>
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
@@ -137,7 +132,6 @@
                     </div>
                 </section>
                 <%}%>
-
                 <%if(theme.friends && theme.friends.length != 0){%>
                 <section class="switch-part switch-part3">
                     <div id="js-friends">
@@ -147,7 +141,6 @@
                     </div>
                 </section>
                 <%}%>
-
                 <%if(theme.aboutme){%>
                 <%if(!theme.friends){%>
                 <section class="switch-part switch-part3">

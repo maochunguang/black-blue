@@ -12,12 +12,10 @@
   <% if (page.category) { %> 
     <meta name="keywords" content="<%- page.category %>" />
   <% } %>
-
   <%
   var title = page.title;
   if (is_archive()){
     title = 'Archives';
-
     if (is_month()){
       title += ': ' + page.year + '/' + page.month;
     } else if (is_year()){
