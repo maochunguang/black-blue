@@ -5,3 +5,4 @@
 *.log
 node_modules
 _myconfig.yml
+_config.yml

@@ -6,7 +6,7 @@
 menu:
   # 主页: /archives/
   所有文章: /archives/
-  # 玩转开发工具: /categories/开发工具/
+  玩转开发工具: /categories/开发工具/
   玩转数码: /categories/digital
   认知提升: /categories/cognition
   关于我: /about/
@@ -41,8 +41,8 @@ disqus:
   # you have set "disqus_shortname" in your site's "_config.yml"
 changyan:
   on: true
-  appid: xxxx
-  conf: xxx
+  appid: cysUyjKoQ
+  conf: prod_bc19196c7a2a5953894965521361b2db
   # 是否开启畅言评论，
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 畅言评论在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
@@ -135,8 +135,8 @@ baidushare: true
 # baidu_site: #c167b9feb4f0b208b712c79629c188e4
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
-google_analytics: xxxxxx
-baidu_analytics: xxxxx
+google_analytics: UA-80304484-2
+baidu_analytics: 7c4f976a8b427a3d92ebe7ccd522b0b9
 
 
 
