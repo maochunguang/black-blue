@@ -24,8 +24,8 @@ favicon: /img/favicon.png
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  github: "https://github.com/maochunguang"
-  weibo: "http://weibo.com/p/1005055620854238/home"
+  github: xxxxx
+  weibo: xxxxxxxx
   rss: /atom.xml
 
   # Google: "#"
@@ -35,14 +35,14 @@ subnav:
 
 disqus:
   on: false
-  shortname: maochunguang
+  shortname: xxxxxxxxx
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if
   # you have set "disqus_shortname" in your site's "_config.yml"
 changyan:
   on: true
-  appid: cysUyjKoQ
-  conf: prod_bc19196c7a2a5953894965521361b2db
+  appid: xxxx
+  conf: xxxxxxxxx
   # 是否开启畅言评论，
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 畅言评论在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
@@ -135,8 +135,8 @@ baidushare: true
 # baidu_site: #c167b9feb4f0b208b712c79629c188e4
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
-google_analytics: UA-80304484-2
-baidu_analytics: 7c4f976a8b427a3d92ebe7ccd522b0b9
+google_analytics: xxxxx
+baidu_analytics: xxxxxx
 
 
 
