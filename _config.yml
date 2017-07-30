@@ -55,8 +55,8 @@ changyan:
 ## "on: false": 自定义显示图片设置background_image: 5
 background:
   on: true
-  background_sum: 4
-  background_image: 4
+  background_sum: 1
+  background_image: 1
 
 highlight_style:
   on: true
