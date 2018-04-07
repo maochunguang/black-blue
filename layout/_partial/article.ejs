@@ -78,9 +78,13 @@
         <%- partial('comments/disqus', {
             shortname: theme.disqus.shortname
           }) %>
-    <% } else if (config.disqus_shortname) { %>
-        <%- partial('comments/disqus', {
-            shortname: config.disqus_shortname
+    <% } else if (theme.gitment.on) { %>
+        <%- partial('comments/gitment', {
+            id: page.title,
+            githubID: theme.gitment.githubID,
+            repo: theme.gitment.repo,
+            client_id: theme.gitment.client_id,
+            client_secret: theme.gitment.client_secret,
           }) %>
     <% } %>
 <% } %>

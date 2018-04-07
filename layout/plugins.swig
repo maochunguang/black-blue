@@ -13,5 +13,5 @@
       </ul>
     </div>
   </div>
-</div>     
+</div>
 <script>window.SEARCH_INDEX = {{ lunr_index(site.data[page.data]) }}</script>
