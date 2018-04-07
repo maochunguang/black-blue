@@ -4,10 +4,11 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  主页: /
+  # 主页: /archives/
   所有文章: /archives/
   玩转开发工具: /categories/开发工具/
-  标签云: /tags/
+  玩转数码: /categories/digital
+  算法学习: /categories/algorithm
   关于我: /about/
 # 静心阅读: /tags
 
@@ -26,8 +27,8 @@ isHttps: true
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  github: "https://github.com/maochunguang"
-  weibo: "http://weibo.com/p/1005055620854238/home"
+  github: xxxxx
+  weibo: xxxxxxxx
   rss: /atom.xml
 
   # Google: "#"
@@ -37,24 +38,17 @@ subnav:
 
 disqus:
   on: false
-  shortname: maochunguang
+  shortname: xxxxxxxxx
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if
   # you have set "disqus_shortname" in your site's "_config.yml"
-
-duoshuo:
-  on: false
-  domain: geeksblog
-  # 是否开启多说评论，http://duoshuo.com/create-site/
-  # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
-  # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
-
-youyan:
+changyan:
   on: true
-  id: 2133530
-  # 是否开启友言评论，http://www.uyan.cc/index.php
+  appid: xxxx
+  conf: xxxxxxxxx
+  # 是否开启畅言评论，
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
-  # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
+  # 畅言评论在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
 
 # >>> Style Customisation 样式自定义 <<<
 
@@ -64,9 +58,8 @@ youyan:
 ## "on: false": 自定义显示图片设置background_image: 5
 background:
   on: true
-  #on: false
-  background_sum: 3
-  background_image: 3
+  background_sum: 1
+  background_image: 1
 
 highlight_style:
   on: true
@@ -145,8 +138,8 @@ baidushare: true
 # baidu_site: #c167b9feb4f0b208b712c79629c188e4
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X, or Baidu Analytics hash key
-google_analytics: UA-80304484-2
-baidu_analytics:
+google_analytics: xxxxx
+baidu_analytics: xxxxxx
 
 
 
@@ -154,7 +147,7 @@ baidu_analytics:
 # http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
   on: true
-  site_visit: 网站到访数
+  site_visit: 极客到访数
   page_visit: 本页阅读量
 
 

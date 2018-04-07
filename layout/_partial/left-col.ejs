@@ -9,17 +9,15 @@
             <img src="<%=theme.avatar%>" class="js-avatar" style="width: 100%;height: 100%;opacity: 1;">
             <%}%>
         </a>
-
         <hgroup>
           <h1 class="header-author"><a href="/"><%=theme.author%></a></h1>
         </hgroup>
-
         <% if (theme.subtitle){ %>
         <p class="header-subtitle"><%=theme.subtitle%></p>
         <%}%>
         <% if (theme.search_box){ %>
             <form>
-                <input type="text" class="st-default-search-input search" id="local-search-input" placeholder="搜索一下..." autocomplete="off">
+                <input type="text" class="st-default-search-input search" id="local-search-input" placeholder="搜索一下" autocomplete="off">
             </form>
             <div id="local-search-result"></div>
         <%}%>
@@ -93,7 +91,6 @@
                         </div>
                         <%}%>
                     </div>
-
                 </div>
                 <div class="tips-box hide">
                     <div class="tips-arrow"></div>
@@ -110,26 +107,24 @@
                 </div>
             </div>
         <%}%>
-
         <div id="switch-area" class="switch-area">
             <div class="switch-wrap">
                 <section class="switch-part switch-part1">
                     <nav class="header-menu">
                         <ul>
                         <% for (var i in theme.menu){ %>
-                            <li><a rel="external nofollow" href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+                            <li><a  href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
                         <%}%>
                         </ul>
                     </nav>
                     <nav class="header-nav">
                         <ul class="social">
                             <% for (var i in theme.subnav){ %>
-                                <a class="fl <%= i %>" rel="external nofollow" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><%= i %></a>
+                                <a class="fl <%= i %>"  target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><%= i %></a>
                             <%}%>
                         </ul>
                     </nav>
                 </section>
-
                 <%if(theme.tagcloud){%>
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
@@ -137,17 +132,15 @@
                     </div>
                 </section>
                 <%}%>
-
                 <%if(theme.friends && theme.friends.length != 0){%>
                 <section class="switch-part switch-part3">
                     <div id="js-friends">
                     <% for (var i in theme.friends){ %>
-                      <a target="_blank" rel="external nofollow" class="main-nav-link switch-friends-link" href="<%- url_for(theme.friends[i]) %>"><%= i %></a>
+                      <a target="_blank"  class="main-nav-link switch-friends-link" href="<%- url_for(theme.friends[i]) %>"><%= i %></a>
                     <% } %>
                     </div>
                 </section>
                 <%}%>
-
                 <%if(theme.aboutme){%>
                 <%if(!theme.friends){%>
                 <section class="switch-part switch-part3">

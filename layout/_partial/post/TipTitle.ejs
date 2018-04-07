@@ -5,7 +5,6 @@
             var title = a.attr('title');
             if (title == undefined || title == "") return;
             a.data('title', title).removeAttr('title').hover(
-
             function() {
                 var offset = a.offset();
                 $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({

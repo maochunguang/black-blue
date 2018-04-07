@@ -10,17 +10,14 @@
         display: none;
     }
 </style>
-
 <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
 <%- partial('_partial/jquery') %>
 <script>
     var valueHide = "隐藏目录";
     var valueShow = "显示目录";
-
     if ($(".left-col").is(":hidden")) {
         $("#tocButton").attr("value", valueShow);
     }
-
     $("#tocButton").click(function() {
         if ($("#toc").is(":hidden")) {
             $("#tocButton").attr("value", valueHide);
@@ -33,13 +30,11 @@
             $(".switch-btn, .switch-area").fadeIn(500);
         }
     })
-
     if ($(".toc").length < 1) {
         $("#toc, #tocButton").hide();
         $(".switch-btn, .switch-area").show();
     }
 </script>
-
 <% if (theme.toc_nowrap) { %>
     <style>
         .toc {
@@ -47,7 +42,6 @@
             overflow-x: hidden;
         }
     </style>
-
     <script>
         $(document).ready(function() {
             $(".toc li a").mouseover(function() {
