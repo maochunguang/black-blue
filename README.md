@@ -1,4 +1,7 @@
-## Hexo黑蓝主题
+# Hexo黑蓝主题
+![主题图片](http://o7kalf5h3.bkt.clouddn.com/blog-index.png)
+
+## 特性
 本主题由**SPFK**修改而成，具体改进如下：
 1. 颜色由黑色和蓝色为主，主题鲜明直观
 2. 压缩css和js（SPFK主题没有压缩css，js）
