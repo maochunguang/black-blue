@@ -17,6 +17,9 @@ avatar: /img/avatar.png
 # Small icon of Your site | 站点小图标地址
 favicon: /img/favicon.png
 
+# 域名是否启用https，如果启用，js文件必须https加载
+isHttps: true
+
 # Social info. Bar | 社交信息展示
 ## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"
 ## Encrypt email 加密邮件地址 http://ctrlq.org/encode/
